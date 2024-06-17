@@ -1,13 +1,33 @@
 * {
-  border-top: 10px  solid  chartreuse
+  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.h1 {
+/* PAGE SECTIONS */
+body {
+  color: #1098ad;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
 
-  background-color: darksalmon;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-haider {
+  background-color: #005f47;
+  padding: 20px, 40px;
+}
+
+nav {
+  font-size: 18px;
+  font-style: bold;
+}
+
+.p-text {
+  font-size: 18px;
 }
