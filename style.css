@@ -10,7 +10,7 @@ body {
   color: #1098ad;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
-  position: relative;
+  /* position: relative; */
 }
 
 .container {
@@ -19,15 +19,79 @@ body {
 }
 
 .main-haider {
-  background-color: #005f47;
-  padding: 20px, 40px;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-top: 30px;
 }
 
 nav {
-  font-size: 18px;
+  font-size: 20px;
   font-style: bold;
+  margin-top: 15px;
+  color: #1098ad;
+  margin-left: 40px;
+  text-align: center;
+  justify-items: space-between;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+  padding: 20px 40px;
 }
 
 .p-text {
-  font-size: 18px;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* .panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0, 5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0, 7 ease-in; 
+  }
+  */
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: Bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+/* FLEXBOX */
+.main-haider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+}
+
+footer {
+  grid-column: 1 / -1;
 }
